@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url('ROOM.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .searchbar {
+            width: 6in;
+            height: 2em;
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        .search {
+            width: 5in;
+            height: 1em;
+            border-radius: 50%;
+            border: 2px solid black;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        #charactersList {
+            padding-inline-start: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 20px;
+        }
+    </style>
+
+   </head>
+
+<body>
+    <!-- <script>
+        const select = document.querySelector('select');
+        const html = document.querySelector('html');
+        document.body.style.padding = '10px';
+
+        function update(bgColor, textColor) {
+            html.style.backgroundColor = bgColor;
+            html.style.color = textColor;
+        }
+
+        select.onchange = function () {
+            (select.value === 'black') ? update('black', 'white') : update('white', 'black');
+        }
+    </script> -->
+    <div class="us">
+
+
+        <div class="about_us">
+
+            <!-- <script>
+        var i = 0; // initialize counter at 0
+        text = "How can we help you?"; //var named text - to be typed
+
+        function typing() {
+            if (i < text.length) { //if var i is less than the length  of the the text var then append the character
+                document.getElementById("typo").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typing, 90);
+            }
+        }
+
+        typing();
+    </script> -->
+            <br>
+
+            <div class="work">
+        <div class="find_office">
+            <a href="office.html">
+                <h1>
+                    Find me a Office.
+                </h1>
+            </a>
+        </div>
+
+        <div class="find_room">
+            <a href="room.html">
+                <h1>Find me a Room.</h1>
+            </a>
+        </div>
+    </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <footer>
+                <div class="contents">
+                    <div class="address">
+                        <label class="fh1"><strong>
+                                <h3>Our Address</h3> <br><br>
+                            </strong> </label>
+                        54 Albert Rd<br> Woodstock<br>Cape Town<br> 7915
+
+                    </div>
+                    <div class="contact">
+                        <label class="fh1"><strong>
+                                <h3>Our Contacts</h3> <br><br>
+                            </strong> </label>
+                        Email - findmyspace.com <br>
+                        Contact number - 0789123030
+                    </div>
+                    <div class="social">
+                        <label class="fh1"><strong>
+                                <h3>Our social media</h3> <br><br>
+                            </strong> </label>
+                        <a href="https://twitter.com/home?lang=en">
+                            <i class="fa fa-twitter-square" style="font-size:60px;color:black;"></i></a>
+
+                        <a href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" style="font-size:60px;color:black;"></i>
+                        </a>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"
+                                style="font-size:60px;color:black;"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </footer>
+
+            <source src="home.js" type="script/text">
+</body>
+
+</html>
